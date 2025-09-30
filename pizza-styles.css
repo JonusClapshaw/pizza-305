@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: burlywood
+}
+
+main{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto 1rem auto;
+    padding: 1rem;
+}
+
+header{
+    background-color: lightgray;
+    color: black;
+    text-align: left;
+    padding: 1rem;
+}
+
+header img {
+    float: right;
+    max-width: 200px;
+}
+
+header h1 {
+    color: rgb(206, 100, 100);
+    font-weight: 600;
+}
+
+#contact-button{
+    border: none;
+    background-color: rgb(206, 100, 100);
+    color: white;
+    padding: 0.5rem .75rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+}
+
+#tagline{
+    font-size: 120%;
+    font-weight: 600;
+}
+
+fieldset{
+    border: 1px solid darkgreen;
+    padding: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+legend{
+    color: darkgreen;
+    font-variant: small-caps;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    width: 100%;
+}
