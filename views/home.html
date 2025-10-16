@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza Jo</title>
 
+    <!-- Link to JavaScript-->
+     <script src = "js/pizza.js" defer></script>
+
     <!-- Favicon -->
     <link rel="icon" href="images/pizza-icon.jpg">
 
@@ -25,14 +28,17 @@
             <!-- Contact info -->
             <fieldset>
                 <legend>Contact Info</legend>
-                <label for="name">First Name:</label>
+                <label for="fname">First Name:</label>
                 <input type="text" id="fname" name="fname">
+                <span id = "err-fname" class = "error"> Name cannot be empty!</span>
 
-                <label for="lastname">Last Name:
-                <input type="text" id="fname" name="fname">
+                <label for="lname">Last Name:
+                <input type="text" id="lname" name="lname">
+                <span id = "err-lname" class = "error"> Name cannot be empty!</span>
 
-                <label for="emailAdress">Email address:</label>
-                <input type="text" id="fname" name="fname">
+                <label for="email">Email address:</label>
+                <input type="text" id="email" name="email">
+                <span id = "err-email" class = "error"> Name cannot be empty!</span>
             </fieldset>
 
             <fieldset>
@@ -43,6 +49,7 @@
                 <label for="Delivery">
                     <input type="radio" id="Delivery" name="method">Delivery
                 </label>
+                <span id = "err-method" class = "error"> Name cannot be empty!</span>
             </fieldset>
             
             <fieldset>
@@ -64,6 +71,7 @@
                     <option value="large">large</option>
                 </select>
                 </label>
+                <span id = "err-size" class = "error"> Name cannot be empty!</span>
             </fieldset>
             <!-- Add an order button-->
              <button type="submit">Place Order</button>
